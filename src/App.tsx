@@ -21,12 +21,8 @@ import { PublicRoute } from "router"; //PrivateRoute,
 /** Utils */
 import ScrollToTop from "utils/ScrollToTop";
 
-import { Header, Footer } from "components";
-
 /** Page */
-const Home = lazy(() => import("pages/Home"));
-const Company = lazy(() => import("pages/Company"));
-const TestComponent = lazy(() => import("TestComponent"));
+const Mypage = lazy(() => import("pages/Mypage"));
 
 // console.log("getDataById", a);
 
@@ -39,13 +35,7 @@ const App: React.FC = () => {
         {/* <Header /> */}
         <ScrollToTop />
         <Switch>
-          <PublicRoute exact path={UrlInternal.HOME} component={Home} />
-          <PublicRoute exact path={UrlInternal.COMPANY} component={Company} />
-          <PublicRoute
-            exact
-            path={UrlInternal.TEST}
-            component={TestComponent}
-          />
+          <PublicRoute exact path={UrlInternal.MYPAGE} component={Mypage} />
         </Switch>
       </Router>
     </ThemeProvider>

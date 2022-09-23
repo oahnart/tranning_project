@@ -1,9 +1,5 @@
 export enum UrlInternal {
   HOME = "/",
-  COMPANY = "/company",
-  SECURITY = "/security",
-  COMMUNITY = "/community",
-  HELP = "/help",
+  MYPAGE = "/",
   LOGIN = "/login",
-  TEST = "/test",
 }

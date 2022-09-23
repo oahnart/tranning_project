@@ -11,13 +11,7 @@ import common_en from "./locales/en/index.json";
 import * as serviceWorker from "./serviceWorker";
 import { getLocalStorage } from "utils/localStorage";
 import { LANG } from "utils/localStorage/type";
-import Loading from "containers/LoadingNew";
 const store = initStore();
-
-function getLoading() {
-  setInterval(() => {}, 2000);
-  return <Loading />;
-}
 
 i18next.init({
   interpolation: { escapeValue: false }, // React already does escaping
@@ -35,7 +29,7 @@ i18next.init({
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider store={store}>
-      <Suspense fallback={getLoading()}>
+      <Suspense fallback={false}>
         <I18nextProvider i18n={i18next}>
           <App />
         </I18nextProvider>
