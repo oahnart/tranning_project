@@ -3,25 +3,22 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
    
    .container{
-     
-      width:100%;
+   width:100%;
    z-index: 9999;
    top:0;
    }
    .content {  
-      position:absolute;
-      display: flex;  
-      flex-direction: row;
-      
+      width: 1920px;
+      display: flex;
+      inline-size: max-content;
+      margin: 20px auto;
    }
+
    .bg{
-     
+      position: absolute;
    width: 1920px;
-  height: 80px;
-  margin: 0 0 42px;
-  padding: 20px 261px 3px 261px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.14);
-  background-color: #fff;
+    height: 80px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 14%);
    }
    .Yeolame{
       position:absolute;
@@ -66,39 +63,33 @@ export const Wrapper = styled.div`
 }
 
 .span_content{
-   position: relative;
-   height: 25px;
   font-family: NotoSansKR;
   font-size: 17px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.47;
-  letter-spacing: normal;
   color: #3f444d;
 
 .log{
-   position: relative;
   font-family: NotoSansKR;
+  width: 145px;
+  height: 38px;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #fff; 
-  margin: 1px 0 18px 20px;
-  padding: 6.1px 50.5px 7.9px 50.5px;
   border-radius: 20px;
   background-color: #08ceac;
 }
 }
 
-
+.zz{
+   margin-left: 215.5px;
+}
+.ss{
+   margin-right:212px;
+}
    span{
+      margin-right: 70px;
       position: relative;
-      margin: 10px 70px 25px 70px;
       color: #3f444d;
    }
   

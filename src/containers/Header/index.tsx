@@ -25,7 +25,7 @@ function Header() {
 			</div>
 			<div className='span_content'>
 				<Link to = "/xnwk">
-				<span>
+				<span className='zz'>
 						투자하기
 				</span>
 				</Link>
@@ -43,7 +43,7 @@ function Header() {
 						<span>
 						고객센터	
 						</span>
-						<span>
+						<span className='ss'>
 						고객센터
 						</span>
 						</Link>

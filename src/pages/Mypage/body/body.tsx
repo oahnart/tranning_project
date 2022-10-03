@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './style';
 import {QuestionCircleOutlined} from '@ant-design/icons';
-import { Link,NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const dataApi = [
   {

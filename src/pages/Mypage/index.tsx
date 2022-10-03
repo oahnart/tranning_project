@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "containers/Header";
-import Body from './body/body'
 import Slide from '../../containers/Slide/index'
 
 import {

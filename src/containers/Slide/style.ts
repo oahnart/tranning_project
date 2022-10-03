@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   .my-page{
     width: 140px;
   height: 38px;
-  margin: 0 88px 10px 261px;
+  margin: 112px 88px 10px 261px;
   font-family: NotoSansKR;
   font-size: 26px;
   font-weight: normal;
@@ -36,6 +36,9 @@ export const Wrapper = styled.div`
   display: flex;
     flex-direction: column;
     
+    }
+    .dl.active{
+      color: #08ceac;
     }
   
   .container {
