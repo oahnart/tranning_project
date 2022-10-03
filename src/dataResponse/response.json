@@ -1,0 +1,62 @@
+{
+  "all_cnt": 2,
+  "list": [
+    {
+      "id": 89930233,
+      "progress_status": "P",
+      "qc_result": "",
+      "card_type": "TR",
+      "qc_type": "",
+      "points": 50,
+      "qc_additional_points": 0,
+      "content": {
+        "type": "T",
+        "text": "Just out of curiosity, where were you last night?",
+        "timestamp": "",
+        "video_info": {},
+        "coordinates_list": [],
+        "src_lang_id": 17,
+        "dst_lang_id": 61,
+        "submission": {
+          "source": {},
+          "target": {
+            "id": 462811,
+            "content": "Chỉ vì tò mò, bạn đã ở đâu đêm qua?"
+          },
+          "final": {}
+        },
+        "fail_reason": { "lang_set_key": "" },
+        "image_url": ""
+      },
+      "objection": {}
+    },
+    {
+      "id": 89860895,
+      "progress_status": "P",
+      "qc_result": "",
+      "card_type": "TR",
+      "qc_type": "",
+      "points": 50,
+      "qc_additional_points": 0,
+      "content": {
+        "type": "T",
+        "text": "Wild flowers blanket the hillside.",
+        "timestamp": "",
+        "video_info": {},
+        "coordinates_list": [],
+        "src_lang_id": 17,
+        "dst_lang_id": 61,
+        "submission": {
+          "source": {},
+          "target": { "id": 460624, "content": "Hoa dại trùm kín sườn đồi." },
+          "final": {}
+        },
+        "fail_reason": { "lang_set_key": "" },
+        "image_url": ""
+      },
+      "objection": {}
+    }
+  ],
+  "before_id": 89860895,
+  "after_id": ""
+}
