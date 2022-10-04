@@ -1,6 +1,7 @@
 import React from 'react';//lazy
 import * as S from './style';
 import {Link} from 'react-router-dom';
+import {DoubleRightOutlined} from '@ant-design/icons';
 
 function Header() {
 
@@ -18,10 +19,12 @@ function Header() {
 			</Link>
 			<div className='bg_asset'>
 			<div className='asset'>
-				asset
+				asset 
+				
 			</div>
 			
 			</div>
+			<div className='ll'><DoubleRightOutlined/></div>
 			</div>
 			<div className='span_content'>
 				<Link to = "/xnwk">

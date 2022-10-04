@@ -32,19 +32,44 @@ export const Wrapper = styled.div`
   padding: 13px 20.2px 12px 25px;
   border-radius: 5px;
   background-color: #f5f5f5;
-  color: #5b5b5b;
+
   display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    align-items: center;
     }
-    .dl.active{
+    .eq.active{
       color: #08ceac;
+      align-items: center;
+    }
+    .eq{
+      padding-right: 92.5px;
+  color: #5b5b5b;
+    }
+    .rer{
+      display: none;
+    }
+    .rer.active{
+      display: block;
+      color: #08ceac;
+
     }
   
   .container {
     display: flex;
     flex-direction: row;
   }
-
-
+.span
+{ 
+  width: 14px;
+  height: 14px;
+  margin: 2.5px 0 3.5px 96.8px;
+}
+.DoubleRightOutlined{
+  margin-left: 92.8px;
+    width: 14px;
+    height: 14px;
+}
+.button{
+  align-items: center;
+}
   `

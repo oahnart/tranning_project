@@ -1,7 +1,8 @@
-import React,{useState} from 'react'
-import * as S from './style'
-import Body from '../../pages/Mypage/body/body'
-import Content2 from '../../pages/Mypage/Content2/' 
+import React,{useState} from 'react';
+import * as S from './style';
+import Body from '../../pages/Mypage/body/body';
+import Content2 from '../../pages/Mypage/Content2/' ;
+import {DoubleRightOutlined} from '@ant-design/icons';
 
 import {
     BrowserRouter as Router,
@@ -21,16 +22,28 @@ function Slide() {
     <div className="container">
     <div className= "bt" >
         <Link to="/">
-          <button className={`dl ${cli === '1' ? 'active' :''}`} onClick={() => setCli('1')}>투자현황</button>
-        </Link>
+          <button className='dl'>
+           <div className={`eq ${cli === '1'? 'active' :''}`} onClick={() => setCli('1')}>투자현황</div>
+          <div className={`rer ${cli === '1'? 'active' :''}`} onClick={() => setCli('1')}> <DoubleRightOutlined/></div>
+            </button>
+        </Link>    
         <Link to="/about">
-          <button className={`dl ${cli === '2'? 'active' :''}`} onClick={() => setCli('2')}>투자내역</button>
+        <button className='dl'>
+        <div className={`eq ${cli === '2'? 'active' :''}`} onClick={() => setCli('2')}>투자내역</div>
+         <div className={`rer ${cli === '2'? 'active' :''}`} onClick={() => setCli('2')}> <DoubleRightOutlined/></div>
+         </button>      
         </Link>
         <Link to="/users">
-          <button className={`dl ${cli === '3' ? 'active' :''}`} onClick={() => setCli('3')}>나의계좌</button>
+        <button className='dl'>
+        <div className={`eq ${cli === '3'? 'active' :''}`} onClick={() => setCli('3')}>나의계좌</div>
+          <div className={`rer ${cli === '3'? 'active' :''}`} onClick={() => setCli('3')}> <DoubleRightOutlined/></div>
+          </button>
         </Link>
         <Link to="/my">
-          <button className={`dl ${cli === '4' ? 'active' :''}`} onClick={() => setCli('4')}>나의정보</button>
+        <button className='dl'>
+        <div className={`eq ${cli === '4'? 'active' :''}`} onClick={() => setCli('4')}>나의정보</div>
+          <div className={`rer ${cli === '4'? 'active' :''}`} onClick={() => setCli('4')}> <DoubleRightOutlined/></div>
+          </button>
         </Link>
         </div>
         <div className ="component">

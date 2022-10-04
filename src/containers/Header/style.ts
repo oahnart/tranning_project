@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
       position:absolute;
    width: 134px;
   height: 40px;
-  margin: 0 51.4px 0 0;
+  margin: 0px -0.6px 0px 43px;
   font-family: SegoeUI;
   font-size: 29px;
   font-weight: 600;
@@ -38,11 +38,18 @@ export const Wrapper = styled.div`
    .bg_asset{
    width: 67.4px;
   height: 21px;
-  margin: 10px 2.5px 8px 125.6px;
+  margin: 10px 1.5px 8px 164.6px;
   padding: 0 9px 2px 16.4px;
-  background-color: #08ceac;
+  clip-path: polygon(0 0,90% 0%,100% 50%,90% 100%,0% 100% );
+ background-color: #08ceac;
+ z-index: -1;
    }
-   
+   svg{
+      width: 31.5px;
+    height: 28px;
+    margin: -8px -30px -16px -20.6px;
+    color: #08ceac;
+   }
    .ww{
       display: flex;
    }
